@@ -1,0 +1,1 @@
+package com.yafatek;public class Node {	Node leftChild;	Node rightChild;	int Value;	public Node(int value) {		Value = value;	}	@Override	public String toString() {		return "Value: " + Value;	}}
